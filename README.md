@@ -1,5 +1,5 @@
 # LeetCode Tasks
 
-## List
+## Lists links
 
 https://leetcode.com/list/xoqag3yj/
