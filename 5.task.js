@@ -1,17 +1,9 @@
 /*
-4. Median of Two Sorted Arrays
-https://leetcode.com/problems/median-of-two-sorted-arrays/
+5. Longest Palindromic Substring
+https://leetcode.com/problems/longest-palindromic-substring/
 */
 /**
- * @param {number[]} nums1
- * @param {number[]} nums2
- * @return {number}
+ * @param {string} s
+ * @return {string}
  */
-var findMedianSortedArrays = function (nums1, nums2) {
-  let arr = [...nums1, ...nums2].sort((a, b) => a - b);
-  let mid = Math.floor(arr.length / 2);
-
-  return Number(
-    (arr.length % 2 !== 0 ? arr[mid] : (arr[mid - 1] + arr[mid]) / 2).toFixed(5)
-  );
-};
+var longestPalindrome = function (s) {};
